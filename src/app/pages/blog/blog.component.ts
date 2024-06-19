@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { WaifuService } from '../../services/waifu.service';
+import { UpperCasePipe } from '@angular/common';
 
 @Component({
   selector: 'app-blog',
   standalone: true,
-  imports: [],
+  imports: [UpperCasePipe],
   templateUrl: './blog.component.html',
   styleUrl: './blog.component.css'
 })

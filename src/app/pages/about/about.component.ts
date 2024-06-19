@@ -6,7 +6,7 @@ import { WaifuService } from '../../services/waifu.service';
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [HttpClientModule, CommonModule],
+  imports: [HttpClientModule, CommonModule,],
   templateUrl: './about.component.html',
   styleUrl: './about.component.css',
   providers: [WaifuService]
